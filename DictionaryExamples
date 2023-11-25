@@ -1,0 +1,32 @@
+#dictionary is key-value pair 
+#for example
+person={
+    'first_name':'rahul',
+    'last_name':'dev',
+    'roll_num':35,
+    'active':true
+}
+#for getting valuein dictionary you can use Two methods
+#1 person['age']
+#2 person.get('age')  it will return None if key doesn't exist
+#TO delete a key we use del dict[key]
+#On looping dictionary we get same order as inserted 
+#for travesing key of a dictionary we use .keys() method
+#for traversing values of a dictionary we use .values() method
+###########################################
+stocks={
+    'AAPL':121,
+    'AMZN':3380,
+    "MSFT":219
+}
+
+new_Stocks={ symbol:price*1.02 for(symbol,price) in stocks.items()}
+
+
+
+
+
+
+
+
+##########################################
