@@ -60,7 +60,7 @@ scores = {7, 8, 9}
 numbers = [9, 10]
 new_scores = scores.difference(numbers)
 
-print(new_scores)
+# print(new_scores)
 
 
 
