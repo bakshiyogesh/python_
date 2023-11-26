@@ -53,7 +53,7 @@ s1 = {'Python', 'Java', 'C++'}
 s2 = {'C#', 'Java', 'C++'}
 s = s2 - s1
 
-print(s)
+# print(s)
 
 #using diffrence() method
 scores = {7, 8, 9}
