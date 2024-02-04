@@ -17,4 +17,5 @@ print(person)
 
 # use repr()
 print(repr(person))
-# The __str__ method returns a string representation of an object that is human-readable while the __repr__ method returns a string representation of an object that is machine-readable.
+# The __str__ method returns a string representation of an object that is human-readable 
+# while the __repr__ method returns a string representation of an object that is machine-readable.

@@ -29,7 +29,7 @@ print(greeting)
 # To improve the readability, Python introduces the keyword arguments.
 
 # The following shows the keyword argument syntax:
-
+# When you use the keyword arguments, their names that matter, not their positions.
 # fn(parameter1=value1,parameter2=value2)
 #  Once you use a keyword argument, you need to use keyword arguments for the remaining parameters.
 
