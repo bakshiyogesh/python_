@@ -11,7 +11,7 @@ class Point2D:
             raise ValueError('The other must be an instance of the Point2D')
 
         return Point2D(self.x + point.x, self.y + point.y)
-    def __sub__(self, point:
+    def __sub__(self, point):
         if not isinstance(point, Point2D):
             raise ValueError('The other must be an instance of the Point2D')
 
@@ -22,5 +22,5 @@ class Point2D:
 if __name__ == '__main__':
     a = Point2D(10, 20)
     b = Point2D(15, 25)
-    c = a - b
+    c = a + b
     print(c)

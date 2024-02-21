@@ -53,10 +53,10 @@ print(greeting)
 #Variable type agruement passing to function
 # def sum(a *b):
 #   print(a,b)
-# here * is used for assining variables values to b and it acts as tuple here 
+# here * is used for assigning variables values to b and it acts as tuple here 
 # 
 # For passing keyword variable length arguement
 # def sum(a **b):
 # print(a,b)
 #  sum('navin',sam:'eru',numb:9,mob:909)
-#here doubele ** used here
+#here double ** used here

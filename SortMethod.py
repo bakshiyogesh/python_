@@ -4,9 +4,10 @@
 
 # To sort elements from higher to lower, you pass the reverse=True argument to the sort() method like this:
 
-list.sort(reverse=True)
+#list.sort(reverse=True)
 
 companies = [('Google', 2019, 134.81),
              ('Apple', 2019, 260.2),
              ('Facebook', 2019, 70.7)]
 companies.sort(key=lambda company:company[2])
+print(companies)

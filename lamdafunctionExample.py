@@ -13,9 +13,17 @@ print(Proper_name)
 #Pyhton lamda in loop
 callabes=[]
 for i in (1,2,3,4):
-    callabes.append(lambda a=i:a)
+    callabes.append(lamda a=i:a)
 for f in callabes:
     print(f())
+
+callables=[]
+for i in (1,2,3,4):
+    callables.append(lamda a=i:a)
+for f in callables:
+    print(f())
+# result will be [4,4,4,4] because lambda  expression refering to  i variable not current value.  
+
 def add(a, b):
     """ Add two arguments
     Arguments:
