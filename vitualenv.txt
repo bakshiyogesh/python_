@@ -1,0 +1,4 @@
+virtual env is acts as like another system which gives full functionality of environment
+to install venv python3 -m venv chai
+to activate venv source chai/bin/activate
+to deactivate command -deactivate
