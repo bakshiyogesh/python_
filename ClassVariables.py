@@ -4,4 +4,4 @@ class Car:
         self.name=name
         self.totalCar+=1
 # to get class variable we use print(Car.totalCar)
-#
+print(Car.totalCar)
